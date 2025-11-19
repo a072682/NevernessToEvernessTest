@@ -18,15 +18,15 @@ function InformationPage (){
     const swiperData = [
         {
             id:1,
-            imgSm:`${import.meta.env.BASE_URL}images/information/nte250616_01.png`,
+            imgSm:`/images/information/nte250616_01.png`,
         },
         {
             id:2,
-            imgSm:`${import.meta.env.BASE_URL}images/information/nte250616_02.jpeg`,
+            imgSm:`/images/information/nte250616_02.jpeg`,
         },
         {
             id:3,
-            imgSm:`${import.meta.env.BASE_URL}images/information/nte250616_03.png`,
+            imgSm:`/images/information/nte250616_03.png`,
         },
     ];
     
@@ -146,7 +146,7 @@ function InformationPage (){
                     <div className="rightBox">
                         <div className='newsBox'>
                             <div className='newsTitleBox'>
-                                <img className='newsTitleImgSet' src={`${import.meta.env.BASE_URL}images/information/newsHead.png`} alt="" />
+                                <img className='newsTitleImgSet' src="/images/information/newsHead.png" alt="" />
                                 <div className='newsTitleItemBox'>
                                     {
                                         tabLinkData?.map((item,index)=>{

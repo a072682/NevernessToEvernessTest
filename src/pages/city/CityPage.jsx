@@ -36,27 +36,27 @@ function CityPage (){
     const swiperData = [
         {
             id:1,
-            imgData:`${import.meta.env.BASE_URL}images/city/slide1 (1).jpg`
+            imgData:`/images/city/slide1 (1).jpg`
         },
         {
             id:2,
-            imgData:`${import.meta.env.BASE_URL}images/city/slide2 (1).jpg`
+            imgData:`/images/city/slide2 (1).jpg`
         },
         {
             id:3,
-            imgData:`${import.meta.env.BASE_URL}images/city/slide3 (1).jpg`
+            imgData:`/images/city/slide3 (1).jpg`
         },
         {
             id:4,
-            imgData:`${import.meta.env.BASE_URL}images/city/slide4 (1).jpg`
+            imgData:`/images/city/slide4 (1).jpg`
         },
         {
             id:5,
-            imgData:`${import.meta.env.BASE_URL}images/city/slide5 (1).jpg`
+            imgData:`/images/city/slide5 (1).jpg`
         },
         {
             id:6,
-            imgData:`${import.meta.env.BASE_URL}images/city/slide6 (1).jpg`
+            imgData:`/images/city/slide6 (1).jpg`
         },
     ]
 

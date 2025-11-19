@@ -17,18 +17,18 @@ function IndexPage (){
                     preload="auto" //盡量預先載入影片（加快開始播放的速度）
                     poster="" //影片尚未播放或載入時顯示的封面圖
                 >
-                    <source src={`${import.meta.env.BASE_URL}images/index/nte_pmain_20250514.mp4`} type="video/mp4" />
+                    <source src="/images/index/nte_pmain_20250514.mp4" type="video/mp4" />
                     您的瀏覽器不支援影片
                 </video>
                 {/* lg以上背景影片 */}
 
                 {/* lg以下背景圖片 */}
-                <img className='BgImg d-block d-lg-none' src={`${import.meta.env.BASE_URL}images/index/indexVideoPoster.jpg`} alt="" />
+                <img className='BgImg d-block d-lg-none' src="/images/index/indexVideoPoster.jpg" alt="" />
                 {/* lg以下背景圖片 */}
 
                 {/* 右下角PS按鈕 */}
                 <button className='playStationBtnSet'>
-                    <img className='playStationImgSet' src={`${import.meta.env.BASE_URL}images/index/go_ps_btn.png`} alt="" />
+                    <img className='playStationImgSet' src="/images/index/go_ps_btn.png" alt="" />
                 </button>
                 {/* 右下角PS按鈕 */}
 

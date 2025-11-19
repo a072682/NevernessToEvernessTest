@@ -5,10 +5,10 @@ function Footer(){
     return(
         <>
             <footer className="footer">
-                <img className='footerBgImgSet d-none d-lg-block' src={`${import.meta.env.BASE_URL}images/footer/indexFoot.png`} alt="" />
+                <img className='footerBgImgSet d-none d-lg-block' src="/images/footer/indexFoot.png" alt="" />
                 <div className='footerContentBox'>
                     <div className='logoBox d-none d-lg-block'>
-                        <img className='logoImgSet' src={`${import.meta.env.BASE_URL}images/footer/indexFootNte.png`} alt="" />
+                        <img className='logoImgSet' src="/images/footer/indexFootNte.png" alt="" />
                     </div>
                     <div className='iconBox'>
                         <a className='iconSet faceBook' href=""></a>
@@ -19,7 +19,7 @@ function Footer(){
                         <a className='iconSet playStation' href=""></a>
                     </div>
                     <div className='titleBox d-none d-lg-block'>
-                        <img className='titleImgSet' src={`${import.meta.env.BASE_URL}images/footer/indexFootWelcome.png`} alt="" />
+                        <img className='titleImgSet' src="/images/footer/indexFootWelcome.png" alt="" />
                     </div>
                 </div>
             </footer>

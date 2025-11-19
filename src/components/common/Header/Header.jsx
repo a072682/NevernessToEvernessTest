@@ -76,14 +76,14 @@ function Header(){
             {/* 元件最外圍 */}
             <Navbar expand="lg" className="navBg-set" expanded={expanded} id="siteHeader">
                 <div className="navBgImgSet d-none d-lg-block">
-                    <img className="navBgImg" src={`${import.meta.env.BASE_URL}images/header/header.png`} alt="" />
+                    <img className="navBgImg" src="/images/header/header.png" alt="" />
                 </div>
                 {/* /*內容本體區塊*/}
                 <div className='navbar-box'>
                     {/* 左上角 Logo */}
                     <Link to="/" className='navbarLogo-box'>
                         <div className="navbarLogoImgBox">
-                            <img className="navbarLogoImg-set" src={`${import.meta.env.BASE_URL}images/header/NTE_logo.png`} alt="home-section2-1" />
+                            <img className="navbarLogoImg-set" src="/images/header/NTE_logo.png" alt="home-section2-1" />
                         </div>
                     </Link>
                     {/* 左上角 Logo */}
@@ -117,10 +117,10 @@ function Header(){
                                         shiftRight0${activeIndex}`} 
                             ref={groupRef}>
                             {/* 動畫細項 */}
-                            <img className='animationItem01' src={`${import.meta.env.BASE_URL}images/header/動畫群組01/city_shadow1.png`} alt="" />
-                            <img className='animationItem02' src={`${import.meta.env.BASE_URL}images/header/動畫群組01/city_shadow2.png`} alt="" />
-                            <img className='animationItem03' src={`${import.meta.env.BASE_URL}images/header/動畫群組01/city_shadow3.png`} alt="" />
-                            <img className='animationItem04' src={`${import.meta.env.BASE_URL}images/header/動畫群組01/city_shadow4.png`} alt="" />
+                            <img className='animationItem01' src="/images/header/動畫群組01/city_shadow1.png" alt="" />
+                            <img className='animationItem02' src="/images/header/動畫群組01/city_shadow2.png" alt="" />
+                            <img className='animationItem03' src="/images/header/動畫群組01/city_shadow3.png" alt="" />
+                            <img className='animationItem04' src="/images/header/動畫群組01/city_shadow4.png" alt="" />
                             {/* 動畫細項 */}
                         </div>
                         {/* 動畫群組01 */}
@@ -131,10 +131,10 @@ function Header(){
                                         shiftRight0${activeIndex}`}
                             ref={group2Ref}>
                             {/* 動畫細項 */}
-                            <img className='animationItem05' src={`${import.meta.env.BASE_URL}images/header/動畫群組02/shadow1.png`} alt="" />
-                            <img className='animationItem06' src={`${import.meta.env.BASE_URL}images/header/動畫群組02/shadow2.png`} alt="" />
-                            <img className='animationItem07' src={`${import.meta.env.BASE_URL}images/header/動畫群組02/shadow3.png`} alt="" />
-                            <img className='animationItem08' src={`${import.meta.env.BASE_URL}images/header/動畫群組02/shadow4.png`} alt="" />
+                            <img className='animationItem05' src="/images/header/動畫群組02/shadow1.png" alt="" />
+                            <img className='animationItem06' src="/images/header/動畫群組02/shadow2.png" alt="" />
+                            <img className='animationItem07' src="/images/header/動畫群組02/shadow3.png" alt="" />
+                            <img className='animationItem08' src="/images/header/動畫群組02/shadow4.png" alt="" />
                             {/* 動畫細項 */}
                         </div>
                         {/* 動畫群組02 */}

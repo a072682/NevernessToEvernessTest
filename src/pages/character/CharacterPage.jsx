@@ -17,19 +17,19 @@ function CharacterPage (){
     const ThumbSwiperData01 = [
         {
             id:"1-1",
-            imgSm:`${import.meta.env.BASE_URL}images/character/factions1_nav1.jpg`,
-            role:`${import.meta.env.BASE_URL}images/character/factions1_role1_des.png`,
+            imgSm:`/images/character/factions1_nav1.jpg`,
+            role:`/images/character/factions1_role1_des.png`,
             profile:[
                 "古董店「伊波恩」的一號台柱，橋間地最有名望的家族老大，海特洛市前途無量的異能者之星！",
                 "穩重威嚴，慷慨仁慈，睿智冷靜。",
                 "曾參與「團三郎的復仇」「棉絨絨魔王對決」「V級暴怒GR雲危機」等多起大型異象收容、泯除行動，以一招「柯林斯終極幽魂暗影裂空霆焰魔拳」掃蕩四方，從無敗績！",
             ],
-            video:`${import.meta.env.BASE_URL}images/character/nte_pbgv_nanali_20250513.mp4`,
+            video:`/images/character/nte_pbgv_nanali_20250513.mp4`,
         },
         {
             id:"1-2",
-            imgSm:`${import.meta.env.BASE_URL}images/character/factions1_nav2.jpg`,
-            role:`${import.meta.env.BASE_URL}images/character/factions1_role2_des.png`,
+            imgSm:`/images/character/factions1_nav2.jpg`,
+            role:`/images/character/factions1_role2_des.png`,
             profile:[
                 "「第一，不準給鬼郎丸亂餵東西！",
                 "第二，不準低頭看人！",
@@ -39,12 +39,12 @@ function CharacterPage (){
                 "要是惹惱了早霧，記得提防她那把名叫「鬼郎丸」的異象巨錘，別靠得太近……",
                 "「什麼東西被吞了，又或是被咬了屁股，伊波恩古董店概不負責。」",
             ],
-            video:`${import.meta.env.BASE_URL}images/character/nte_pbgv_zaowu_20250513.mp4`,
+            video:`/images/character/nte_pbgv_zaowu_20250513.mp4`,
         },
         {
             id:"1-3",
-            imgSm:`${import.meta.env.BASE_URL}images/character/factions1_nav3.jpg`,
-            role:`${import.meta.env.BASE_URL}images/character/factions1_role3_des.png`,
+            imgSm:`/images/character/factions1_nav3.jpg`,
+            role:`/images/character/factions1_role3_des.png`,
             profile:[
                 "對各類異象的「奇點」有著敏銳的洞察力，由空白與謎團中現身的異能者。",
                 "接受了管理局的安排，作為新進的「鑒定師」，加入到了（經營狀況不容樂觀的）古董店兼異象獵人團體「伊波恩」。",
@@ -52,12 +52,12 @@ function CharacterPage (){
                 "「哎呀，要說完全合規的東西，恐怕我們店里根本數不上幾件，不也照樣還能開業嗎？像招財寶這樣有潛力的店員呀，稍稍有那麽一點點不合規，不會有問題的！」",
                 "……既然店長潯都這麽說了，就安心地放眼接下來繽紛多彩的都市生活吧！",
             ],
-            video:`${import.meta.env.BASE_URL}images/character/nte_pbgv_nanzhu_20250621.mp4`,
+            video:`/images/character/nte_pbgv_nanzhu_20250621.mp4`,
         },
         {
             id:"1-4",
-            imgSm:`${import.meta.env.BASE_URL}images/character/factions1_nav4.jpg`,
-            role:`${import.meta.env.BASE_URL}images/character/factions1_role3_des.png`,
+            imgSm:`/images/character/factions1_nav4.jpg`,
+            role:`/images/character/factions1_role3_des.png`,
             profile:[
                 "對各類異象的「奇點」有著敏銳的洞察力，由空白與謎團中現身的異能者。",
                 "接受了管理局的安排，作為新進的「鑒定師」，加入到了（經營狀況不容樂觀的）古董店兼異象獵人團體「伊波恩」。",
@@ -65,7 +65,7 @@ function CharacterPage (){
                 "「哎呀，要說完全合規的東西，恐怕我們店里根本數不上幾件，不也照樣還能開業嗎？像招財寶這樣有潛力的店員呀，稍稍有那麽一點點不合規，不會有問題的！」",
                 "……既然店長潯都這麽說了，就安心地放眼接下來繽紛多彩的都市生活吧！",
             ],
-            video:`${import.meta.env.BASE_URL}images/character/nte_pbgv_nvzhu_20250621.mp4`,
+            video:`/images/character/nte_pbgv_nvzhu_20250621.mp4`,
         },
     ];
 
@@ -74,32 +74,32 @@ function CharacterPage (){
     const ThumbSwiperData02 = [
         {
             id:"2-1",
-            imgSm:`${import.meta.env.BASE_URL}images/character/factions2_nav1.jpg`,
-            role:`${import.meta.env.BASE_URL}images/character/factions2_role1_des.png`,
+            imgSm:`/images/character/factions2_nav1.jpg`,
+            role:`/images/character/factions2_role1_des.png`,
             profile:[
                 "異象管理局收容二組預備幹部，同事街坊人名辭典，海特洛市平價美食活地圖。",
                 "從總務處不苟言笑的財務姐姐到員工食堂的手抖大叔，從卜多力小屋的寡言大將到DSD潮玩店的熱情店員，都能上前大聊特聊……當然，是工作外的時間！",
                 "什麼都可以漫天發散，沒有他接不住的話題……大概。",
                 "異象管理局每次收容安全考試的成績除外。",
             ],
-            video:`${import.meta.env.BASE_URL}images/character/nte_pbgv_bohe_20250513.mp4`,
+            video:`/images/character/nte_pbgv_bohe_20250513.mp4`,
         },
         {
             id:"2-2",
-            imgSm:`${import.meta.env.BASE_URL}images/character/factions2_nav2.jpg`,
-            role:`${import.meta.env.BASE_URL}images/character/factions2_role2_des.png`,
+            imgSm:`/images/character/factions2_nav2.jpg`,
+            role:`/images/character/factions2_role2_des.png`,
             profile:[
                 "「親眼所見！那小姑娘把販賣機橫著一抬，隨手晃了晃，就把裡面的番茄醬通通搖了出來。」",
                 "「噢？不會用自動販賣機？真是缺乏生活常識的孩子呢，你怎麼不去幫幫人家？」",
                 "「那……我可不敢！要是沒認錯的話，她是E.T.D的那幫人！怪人！怪力！怪癖！總感覺隨便上去搭話，我的下場會和滿地的番茄醬一樣……」",
                 "空空的「番茄百分百」自動販賣機前，抱著滿懷番茄醬的安魂曲打了個噴嚏。",
             ],
-            video:`${import.meta.env.BASE_URL}images/character/nte_pbgv_anhunqu_20250513.mp4`,
+            video:`/images/character/nte_pbgv_anhunqu_20250513.mp4`,
         },
         {
             id:"2-3",
-            imgSm:`${import.meta.env.BASE_URL}images/character/factions2_nav3.jpg`,
-            role:`${import.meta.env.BASE_URL}images/character/factions2_role3_des.png`,
+            imgSm:`/images/character/factions2_nav3.jpg`,
+            role:`/images/character/factions2_role3_des.png`,
             profile:[
                 "即使是在「異類眾多」的E.T.D，那位為所欲為的法莉婭小姐，也是異象管理局多數同僚難以招架的存在。",
                 "「——那次協助E.T.D四隊的收容行動中，我小聲提醒她『指令上要求不造成任何傷亡損失』，她對我笑得那麼好看，還悄悄讓我閉上眼睛……」",
@@ -108,12 +108,12 @@ function CharacterPage (){
                 "若是平時，這位肆無忌憚的當事人或許還有心情再去逗弄那些亂了陣腳的可憐蟲，但當一個更能讓她血脈噴張目眩神迷的獵物閃現在她的獵場時——",
                 "「啊啊~你又能讓我享用到怎樣的痛楚呢？真是令人，無比期待啊！」",
             ],
-            video:`${import.meta.env.BASE_URL}images/character/nte_pbgv_fadiya_20250513.mp4`,
+            video:`/images/character/nte_pbgv_fadiya_20250513.mp4`,
         },
         {
             id:"2-4",
-            imgSm:`${import.meta.env.BASE_URL}images/character/factions2_nav4.jpg`,
-            role:`${import.meta.env.BASE_URL}images/character/factions2_role4_des.png`,
+            imgSm:`/images/character/factions2_nav4.jpg`,
+            role:`/images/character/factions2_role4_des.png`,
             profile:[
                 "異象管理局E.T.D四隊隊長，白藏——隨性散漫，出言無狀，工作摸魚大師，麻煩制造機。",
                 "在管理局內部的神秘唄果社群中，大家正討論「誰是E.T.D中最不像隊長的隊長」。",
@@ -122,7 +122,7 @@ function CharacterPage (){
                 "……",
                 "一刻也沒有為自己的行為而感到抱歉，即刻趕來的是白藏一氣呵成的按讚與收藏。",
             ],
-            video:`${import.meta.env.BASE_URL}images/character/nte_pbgv_baizang_20250621.mp4`,
+            video:`/images/character/nte_pbgv_baizang_20250621.mp4`,
         },
     ];
 
