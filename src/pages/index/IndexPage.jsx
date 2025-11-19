@@ -17,7 +17,7 @@ function IndexPage (){
                     preload="auto" //盡量預先載入影片（加快開始播放的速度）
                     poster="" //影片尚未播放或載入時顯示的封面圖
                 >
-                    <source src="/images/index/nte_pmain_20250514.mp4" type="video/mp4" />
+                    <source src="/images/index/nte_pmain_20250514_opt.webm" type="video/webm" />
                     您的瀏覽器不支援影片
                 </video>
                 {/* lg以上背景影片 */}

@@ -24,7 +24,7 @@ function CharacterPage (){
                 "穩重威嚴，慷慨仁慈，睿智冷靜。",
                 "曾參與「團三郎的復仇」「棉絨絨魔王對決」「V級暴怒GR雲危機」等多起大型異象收容、泯除行動，以一招「柯林斯終極幽魂暗影裂空霆焰魔拳」掃蕩四方，從無敗績！",
             ],
-            video:`/images/character/nte_pbgv_nanali_20250513.mp4`,
+            video:`/images/character/nte_pbgv_nanali_20250513_opt.webm`,
         },
         {
             id:"1-2",
@@ -39,7 +39,7 @@ function CharacterPage (){
                 "要是惹惱了早霧，記得提防她那把名叫「鬼郎丸」的異象巨錘，別靠得太近……",
                 "「什麼東西被吞了，又或是被咬了屁股，伊波恩古董店概不負責。」",
             ],
-            video:`/images/character/nte_pbgv_zaowu_20250513.mp4`,
+            video:`/images/character/nte_pbgv_zaowu_20250513_opt.webm`,
         },
         {
             id:"1-3",
@@ -52,7 +52,7 @@ function CharacterPage (){
                 "「哎呀，要說完全合規的東西，恐怕我們店里根本數不上幾件，不也照樣還能開業嗎？像招財寶這樣有潛力的店員呀，稍稍有那麽一點點不合規，不會有問題的！」",
                 "……既然店長潯都這麽說了，就安心地放眼接下來繽紛多彩的都市生活吧！",
             ],
-            video:`/images/character/nte_pbgv_nanzhu_20250621.mp4`,
+            video:`/images/character/nte_pbgv_nanzhu_20250621_opt.webm`,
         },
         {
             id:"1-4",
@@ -65,7 +65,7 @@ function CharacterPage (){
                 "「哎呀，要說完全合規的東西，恐怕我們店里根本數不上幾件，不也照樣還能開業嗎？像招財寶這樣有潛力的店員呀，稍稍有那麽一點點不合規，不會有問題的！」",
                 "……既然店長潯都這麽說了，就安心地放眼接下來繽紛多彩的都市生活吧！",
             ],
-            video:`/images/character/nte_pbgv_nvzhu_20250621.mp4`,
+            video:`/images/character/nte_pbgv_nvzhu_20250621_opt.webm`,
         },
     ];
 
@@ -82,7 +82,7 @@ function CharacterPage (){
                 "什麼都可以漫天發散，沒有他接不住的話題……大概。",
                 "異象管理局每次收容安全考試的成績除外。",
             ],
-            video:`/images/character/nte_pbgv_bohe_20250513.mp4`,
+            video:`/images/character/nte_pbgv_bohe_20250513_opt.webm`,
         },
         {
             id:"2-2",
@@ -94,7 +94,7 @@ function CharacterPage (){
                 "「那……我可不敢！要是沒認錯的話，她是E.T.D的那幫人！怪人！怪力！怪癖！總感覺隨便上去搭話，我的下場會和滿地的番茄醬一樣……」",
                 "空空的「番茄百分百」自動販賣機前，抱著滿懷番茄醬的安魂曲打了個噴嚏。",
             ],
-            video:`/images/character/nte_pbgv_anhunqu_20250513.mp4`,
+            video:`/images/character/nte_pbgv_anhunqu_20250513_opt.webm`,
         },
         {
             id:"2-3",
@@ -108,7 +108,7 @@ function CharacterPage (){
                 "若是平時，這位肆無忌憚的當事人或許還有心情再去逗弄那些亂了陣腳的可憐蟲，但當一個更能讓她血脈噴張目眩神迷的獵物閃現在她的獵場時——",
                 "「啊啊~你又能讓我享用到怎樣的痛楚呢？真是令人，無比期待啊！」",
             ],
-            video:`/images/character/nte_pbgv_fadiya_20250513.mp4`,
+            video:`/images/character/nte_pbgv_fadiya_20250513_opt.webm`,
         },
         {
             id:"2-4",
@@ -122,7 +122,7 @@ function CharacterPage (){
                 "……",
                 "一刻也沒有為自己的行為而感到抱歉，即刻趕來的是白藏一氣呵成的按讚與收藏。",
             ],
-            video:`/images/character/nte_pbgv_baizang_20250621.mp4`,
+            video:`/images/character/nte_pbgv_baizang_20250621_opt.webm`,
         },
     ];
 
@@ -265,7 +265,7 @@ function CharacterPage (){
                                                                                     preload="auto" //盡量預先載入影片（加快開始播放的速度）
                                                                                     poster="" //影片尚未播放或載入時顯示的封面圖
                                                                                 >
-                                                                                    <source src={itemIn.video} type="video/mp4" />
+                                                                                    <source src={itemIn.video} type="video/webm" />
                                                                                     您的瀏覽器不支援影片
                                                                                 </video>
                                                                             </div>
