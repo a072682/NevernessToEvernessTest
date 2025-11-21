@@ -13,7 +13,24 @@ import { Link } from 'react-router-dom';
 
 function InformationPage (){
 
+    const swiperRef = useRef(null);
     const inforPaginationRef = useRef(null);
+
+    useEffect(() => {
+        if (swiperRef.current && inforPaginationRef.current) {
+            const swiper = swiperRef.current;
+
+            // 重新指定 pagination DOM
+            swiper.params.pagination.el = inforPaginationRef.current;
+
+            // 重新初始化 pagination
+            swiper.pagination.init();
+            swiper.pagination.render();
+            swiper.pagination.update();
+        }
+    }, []);
+
+    
 
     const swiperData = [
         {
@@ -80,67 +97,58 @@ function InformationPage (){
         <>
             {/* 元件最外圍 */}
             <section className='informationPage'>
+                <img className='informationPageBg' src="/images/information/bg.jpg" alt="" />
                 <LeftSide />
                 <div className='mainBox'>
-                    
                     <div className='leftBox'>
                         <div className='swiperBox'>
                             <div className='swiperViewBox'>
+                                <img className='swiperViewBoxBg' src="/images/information/newsSwiper.png" alt="" />
                                 <div className='viewBox'>
-                                    
-                                    {/* 縮圖輪播 */}
-                                    <Swiper
-                                        className="informationSwiper"
-                                        modules={[Pagination,EffectFade,Autoplay]}
-                                        spaceBetween={16}                 
-                                        loop={true}      
-                                        effect="fade"                                   //啟用淡入淡出
-                                        fadeEffect={{ crossFade: true }}                // 可選：交錯漸變更順
-                                        speed={600}                                     // 可選：動畫時間(毫秒)  
-                                        autoplay={{
-                                            delay: 3000,    // 每 3 秒切換
-                                            disableOnInteraction: false,// 使用者操作後是否繼續播放
-                                            pauseOnMouseEnter: true,//滑鼠移進暫停、移出繼續播放
-                                        }}               
-                                        slidesPerView={1}
-                                        centeredSlides
-                                        pagination={{
-                                            //讓頁碼按鈕可以被點擊
-                                            clickable: true,
-                                            //頁碼按鈕
-                                            el: inforPaginationRef.current,
-                                        }}
-                                        onSwiper={(swiper) => {
-                                            //初始化後重新指定 el
-                                            swiper.params.pagination.el = inforPaginationRef.current;
-
-                                            //重新初始化 pagination
-                                            swiper.pagination.init();
-                                            swiper.pagination.render();
-                                            swiper.pagination.update();
-                                        }}
-                                    >
-                                        {swiperData.map((item, index) => (
-                                            <SwiperSlide    className='swiperSlide'
-                                                            key={item.id}
-                                            >
-                                                {/* bg-primary */}
-                                                <img className='slide-item' src={item.imgSm} alt="" />
-                                            </SwiperSlide>
-                                        ))}
-                                    </Swiper>
-                                    {/* 縮圖輪播 */}
-
+                                
+                                        {/* 縮圖輪播  */}
+                                        <Swiper
+                                            className="informationSwiper"
+                                            modules={[Pagination,EffectFade,Autoplay]}
+                                            onSwiper={(swiper) => {
+                                                swiperRef.current = swiper;
+                                            }}
+                                            spaceBetween={16}                 
+                                            loop={true}      
+                                            effect="fade"                                   //啟用淡入淡出
+                                            fadeEffect={{ crossFade: true }}                // 可選：交錯漸變更順
+                                            speed={600}                                     // 可選：動畫時間(毫秒)  
+                                            autoplay={{
+                                                delay: 3000,    // 每 3 秒切換
+                                                disableOnInteraction: false,// 使用者操作後是否繼續播放
+                                                pauseOnMouseEnter: true,//滑鼠移進暫停、移出繼續播放
+                                            }}               
+                                            slidesPerView={1}
+                                            centeredSlides
+                                            pagination={{
+                                                //讓頁碼按鈕可以被點擊
+                                                clickable: true,
+                                                //頁碼按鈕
+                                                el: inforPaginationRef.current,
+                                            }}
+                                        >
+                                            {swiperData.map((item, index) => (
+                                                <SwiperSlide    className='swiperSlide'
+                                                                key={item.id}
+                                                >
+                                                    {/* bg-primary */}
+                                                    <img className='slide-item' src={item.imgSm} alt="" />
+                                                </SwiperSlide>
+                                            ))}
+                                        </Swiper>
+                                        {/* 縮圖輪播 */}
                                 </div>
                             </div>
                             {/* 頁碼按鈕 */}
-                            {/* 空的為正常 */}
-                            {/* 套件會自動填充 */}
                             <div ref={inforPaginationRef} className="inforPaginationSet"></div>
                             {/* 頁碼按鈕 */}
                             
                         </div>
-                        
                     </div>
                             
                     <div className="rightBox">

@@ -6,14 +6,17 @@
     height: 100vh;
     background-color: rgb(56, 56, 56);
     position: relative;
-    z-index: 0;
-    background-position: center 0;      /* 左上角 */
-    background-size: 100% 100%;    /* 寬度填滿，高度等比 */
-    background-repeat: no-repeat;
-    background-image: url('/images/character/bg.jpg');
     display: flex;
     justify-content: end;
     align-items: end;
+    .characterPageBg{
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        z-index: 0;
+        width: 100%;
+        height: 100%;
+    }
 
     // 側邊tab選項 
     .tabCircleImg{

@@ -88,6 +88,7 @@ function WorldPage (){
         <>
             {/* 元件最外圍 */}
             <section className='WorldPage'>
+                <img className='WorldPageBg' src="/images/world/bg.jpg" alt="" />
                 <LeftSide />
                  {/* 控制層 顯示元素不存在 */}
                 <Tab.Container activeKey={activeTab} onSelect={(key) => setActiveTab(key)}>
@@ -140,6 +141,7 @@ function WorldPage (){
                         </div>
                         <div className='rightBox'>
                             <div className='tabViewBox'>
+                                <img className='tabViewBoxBg' src='/images/world/brand.png' alt="" />
                                 <div className='tabViewImgSet'>
                                     {/* Tab 內容區 */}
                                     <Tab.Content className='h-100'>

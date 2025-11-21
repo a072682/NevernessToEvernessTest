@@ -185,6 +185,7 @@ function CharacterPage (){
         <>
             {/* 元件最外圍 */}
             <section className="characterPage">
+                <img className='characterPageBg' src="/images/character/bg.jpg" alt="" />
                 {/* 控制層 顯示元素不存在 */}
                 <Tab.Container activeKey={activeTab} onSelect={(key) => setActiveTab(key)}>
                     {/* 側邊面板 */}
@@ -252,7 +253,7 @@ function CharacterPage (){
                                                             {
                                                                 item.swiperData?.map((itemIn, i) => {
                                                                     return(
-                                                                        <SwiperSlide key={itemIn.id} className='swiperSlide'>
+                                                                        <SwiperSlide key={i} className='swiperSlide'>
 
                                                                             {/* 背景輪播 */}
                                                                             <div className="videoSet">
@@ -359,8 +360,6 @@ function CharacterPage (){
                                                             </div>  
                                                         </div>
                                                         {/* 控制欄位 */}
-
-                                                        
                                                     </div>
                                                     {/* 大輪播圖外圍 */}
                                                 </div>
